@@ -3,7 +3,7 @@ import java.util.*;
 
 public class S2056 {
     public static void main(String [] args) throws Exception{
-        System.setIn(new FileInputStream("input/2056.txt"));
+        System.setIn(new FilecleInputStream("input/2056.txt"));
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
 
