@@ -15,7 +15,6 @@ class S15686 {
         int y = Integer.parseInt(st.nextToken());
         int sc = Integer.parseInt(st.nextToken());
         int cc = -sc;
-
         board = new int [y][y];
         List<int []> c = new ArrayList<>();
         
