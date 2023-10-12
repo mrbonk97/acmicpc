@@ -46,7 +46,7 @@ class S19942_2 {
         }
 
         
-        for(int i = 0; i < N; i++) back(i+1 ,0);
+        for(int i = 0; i < N; i++) dfs(i+1, i, 0);
         
         Collections.sort(al);
         // System.out.println(al.toString());
@@ -59,7 +59,7 @@ class S19942_2 {
 
     }
 
-    public static void back(int startIdx, int cur) {
+    public static void dfs(int startIdx, int cur) {
 
         if(m.p <= 0 && m.f <= 0 && m.s <= 0 && m.v <= 0 ) {
             if(cur < ans){
